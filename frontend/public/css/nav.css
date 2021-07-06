@@ -1,0 +1,292 @@
+.navbar {
+    display: flex;
+    position: static;
+    width: 100%;
+    height: 70px;
+    margin: 10 auto;
+    align-items: center;
+    justify-content: space-between;
+    font: 15px/2 normal white;
+    background-color: #c3f3ff;
+    border-style: solid;
+    border-color: rgb(143, 202, 251);
+}
+
+.youchoose {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.navbar-left {
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navbar-right {
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.loggedin-right {
+    display: flex;
+}
+
+.login-button {
+    align-items: flex-end;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 4px 11px 2px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 20px;
+    white-space: nowrap;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: baseline;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(233, 166, 166);
+    background-color: rgb(241, 182, 182);
+    font-family: Didot, serif;
+}
+
+.login-button:hover {
+    color: grey;
+}
+
+.signup-button {
+    align-items: flex-end;
+    padding: 5px 11px 2px 10px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: baseline;
+    width: 136px;
+    color: white;
+    border-color: rgb(233, 166, 166);
+    background-color: rgb(241, 182, 182);
+    width: 120px;
+    margin-right: 10px;
+    font-family: Didot, serif;
+}
+
+.signup-button:hover {
+    color: grey;
+}
+
+.logout-button {
+    align-items: flex-end;
+    position: flex;
+    width: 110px;
+    margin-right: 50px;
+    padding: 3px 11px 2px 8px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: baseline;
+    color: white;
+    border-color: rgb(233, 166, 166);
+    background-color: rgb(241, 182, 182);
+    font-family: Didot, serif;
+    height: 30px;
+    margin-top: 7px;
+}
+
+.logout-button:hover {
+    color: grey;
+}
+
+.location-buttons {
+    width: 140px;
+    height: 25px;
+    margin-right: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: baseline;
+    color: white;
+    border-color: rgb(233, 166, 166);
+    background-color: rgb(241, 182, 182);
+    font-family: Didot, serif;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.location-buttons:hover {
+    color: grey;
+}
+
+
+.home-button {
+    align-items: flex-end;
+    margin-left: 10px;
+    padding: 4px 2px 5px 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: baseline;
+    width: 136px;
+    color: white;
+    margin-right: 100px;
+    border-color: rgb(233, 166, 166);
+    background-color: rgb(241, 182, 182);
+    width: 90px;
+    font-family: Didot, serif;
+}
+
+.home-button:hover {
+    color: grey;
+}
+
+.signup-form-header {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.signup-form-container {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #c3f3ff;
+    max-width: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 860px;
+    margin-right: 322px;
+    margin-left: 322px;
+}
+
+.login-form-container {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #c3f3ff;
+    max-width: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 860px;
+    margin-right: 322px;
+    margin-left: 322px;
+}
+
+.login-input {
+    width: 300px;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 5px 7px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: rgb(255, 255, 255);
+}
+
+.signup-input {
+    width: 300px;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 5px 7px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: rgb(255, 255, 255);
+}
+
+.policy-paragraph {
+    font-size: 14px;
+    width: 500px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+}
+
+.session-submit {
+    background-color: rgb(233, 166, 166);
+    box-sizing: border-box;
+    width: 100px;
+    font-size: 18px;
+    padding: 8px 7px;
+    border-radius: 3px;
+    border-color: rgb(233, 166, 166);
+    background-color: rgb(241, 182, 182);
+    color: #fff;
+    box-shadow: 1px 1px 5px lightgrey;
+    font-family: Didot, serif;
+}
+
+.session-submit:hover {
+    color: rgb(221, 220, 220);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.errors {
+    text-align: center;
+    list-style-type: none;
+    min-height: 0px;
+    height: auto;
+    padding-top: 10px;
+    margin-left: 22px;
+    color: rgb(216, 5, 5);
+    list-style-type: disc;
+}
+
+.demo-login {
+    background-color: rgb(233, 166, 166);
+    box-sizing: border-box;
+    width: 150px;
+    font-size: 18px;
+    padding: 8px 7px;
+    border-radius: 3px;
+    border-color: rgb(233, 166, 166);
+    background-color: rgb(241, 182, 182);
+    color: #fff;
+    box-shadow: 1px 1px 5px lightgrey;
+}
+
+.demo-login:hover {
+    color: rgb(221, 220, 220);
+}
+.background {
+    background-image: url('../Appetizers.png');
+    background-color: #c3f3ff;
+    width: 100%;
+   height: 100%;
+   object-fit:cover;
+}
+

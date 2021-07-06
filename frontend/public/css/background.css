@@ -1,0 +1,67 @@
+.backgroundImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 850px;
+    position: relative;
+}
+
+#root {
+    background: url("./background1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* .all-buttons {
+    color: white;
+    background-color: thistle;
+    z-index: 9;
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+} */
+
+.breakfast-button {
+    display: block;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.breakfast-button:hover {
+    background-color: rgb(255, 208, 208);
+}
+
+.lunch-button {
+    display: block;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lunch-button:hover {
+    background-color: rgb(255, 208, 208);
+}
+
+.dinner-button {
+    display: block;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dinner-button:hover {
+    background-color: rgb(255, 208, 208);
+}
+
+footer {
+    margin-top: 200px;
+}

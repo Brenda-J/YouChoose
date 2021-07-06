@@ -1,0 +1,210 @@
+.restaurant-page{
+    display: flex;
+    justify-content: space-around;
+    height: 95vh;
+}
+
+.restaurant-you-choose{
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 4px black;
+    background-color: rgb(241, 182, 182);
+    box-shadow: 0 0 4px black;
+}
+
+.restaurant-you-choose:hover {
+    background-color: rgb(255, 208, 208);
+}
+
+.restaurant-list {
+    background-color: #c3f3ff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 85vh;
+    margin: 10px;
+    overflow-y: scroll;
+    color: white;
+    width: 400px;
+}
+
+.restaurant-list li{
+    cursor: pointer;
+    background-color: rgb(241, 182, 182);
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    margin-bottom: 10px;
+    height: 12vh;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.restaurant-list {
+    width: 300px;
+    float: left;
+}
+
+.restaurant-list li:hover{
+    background-color: rgb(255, 208, 208);
+}
+
+.restaurant-list li.active{
+    background-color: rgb(201, 255, 151);
+}
+
+.restaurant-template{
+    background-color: #c3f3ff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 85vh;
+    width: 60vw;
+    margin: 10px;
+    overflow-y: scroll;
+    color: rgb(34, 34, 34)
+}
+
+.restaurant-template img{
+    height: 80%;
+    width: 80%;
+    float: right;
+}
+
+.fav-button-act{
+    background-color: yellow;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 30px;
+    margin-top: 40px;
+    border: none;
+}
+
+.fav-button-act:before,
+.fav-button-act:after{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.fav-button-act:before{
+  bottom: 0px;
+  left: -30px;
+}
+
+.fav-button-act:after{
+  top: -30px;
+  right: 0px;
+}
+
+.fav-but{
+    background-color: crimson;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 30px;
+    margin-top: 40px;
+    border: none;
+}
+
+.fav-but:before,
+.fav-but:after{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: crimson;
+}
+
+.fav-but:before{
+  bottom: 0px;
+  left: -30px;
+}
+
+.fav-but:after{
+  top: -30px;
+  right: 0px;
+}
+
+.favorites-button {
+    height: 80px;
+    width: 120px;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.temp-left {
+    font-size: 30px;
+    color: rgb(93, 93, 93);
+}
+
+.star-ratings {
+    display: flex;
+    justify-content: center;
+}
+
+.star-ratings-css-product {
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 25px;
+    height: 25px;
+    width: 100px;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+.star-ratings-css-product-top {
+      color: #ff8c40;
+      padding: 0;
+      position: absolute;
+      z-index: 1;
+      display: block;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      width: 3.5em;
+}
+
+.star-ratings-css-product-bottom {
+      padding: 0;
+      display: block;
+      z-index: 0;
+}
+  
+

@@ -1,0 +1,28 @@
+.main-button-holder{
+    display: flex;
+    position: absolute;
+    /* bottom: -50px; */
+    top: 700px;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+}
+
+.main-button-holder button{
+    cursor: pointer;
+    background-color: rgba(255, 208, 208, 0.582);
+    border-radius: 10px;
+    font-size: xx-large;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 4px #000000;
+}
+
+.main-button-holder button:hover{
+    background-color: rgba(255, 208, 208, 0.7);
+}
+
+.main-button-holder.active{
+    display: none;
+}
+
